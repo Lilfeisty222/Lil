@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Cont.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Kakum National Park</div>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="Gal.html">Gallery</a></li>
+                <li><a href="Cont.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="homey">
+            <h1><span>Discover Kakum:</span>Experience the magic of the rainforest.</h1>
+        </div>
+    </header>
+<main class="contact-main">
+    <div class="container">
+        <section class="contact-info">
+            <h2>Our Contact Information</h2>
+            <div class="contact-details">
+                <div class="detail-item">
+                    <h3>Address</h3>
+                    <p>Kakum National Park, about 33km north of <br>
+                    Cape Coast, Ghana</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Phone</h3>
+                    <a href="tel:+233 558712206">+233 558712206</a>
+                </div>
+                <div class="detail-item">
+                    <h3>Email</h3>
+                    <a href="mailto:joshuanoi98@gmail.com">joshuanoi98@gmail.com</a>
+                </div>
+                <div class="detail-item">
+                    <h3>Website</h3>
+                    <p><a href="https://visitghana.com/attractions/kakum-national-park/" target="_blank">https://visitghana.com/
+                        attractions/kakum-national-park/</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit-form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </div>
+</main>
+</body>
+</html>
