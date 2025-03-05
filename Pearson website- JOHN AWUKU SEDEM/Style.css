@@ -129,14 +129,26 @@ footer {
        max-width: 50%;
        flex: 50%; 
     }
-    
+    body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    line-height: 1.5;
+    color: #333; 
+    overflow: hidden;
 }
-@media screen and (min-width: 600px){
+}
+@media screen and (min-width: 799px){
     .boi{
         max-width: 100%;
         flex: 100%;
     }
-    
+     body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    line-height: 1.5;
+    color: #333; 
+    overflow: hidden;
+}
 }
 @keyframes appear {
     from {
